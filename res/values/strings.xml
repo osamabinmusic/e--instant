@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Seleccione un servicio</string>
+    <string name="app_name">Servicios de Emergencia ¡YA!</string>
+
+</resources>
