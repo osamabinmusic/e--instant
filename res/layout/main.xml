@@ -2,16 +2,23 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:background="@drawable/back1" >
 
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hello" />
+        android:text="@string/hello"
+        android:textColor="#FFF"
+        android:textSize="15dp"
+        android:layout_marginTop="5dip"
+        android:layout_marginLeft="5dip"
+        android:layout_marginBottom="3dip" />
 
     <TableLayout
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dip" >
 
         <TableRow
             android:id="@+id/tableRow1"
@@ -20,29 +27,47 @@
 
             <Button
                 android:id="@+id/btnPaco"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Carabineros" />
+                android:text=""
+                android:background="@drawable/paco"
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:layout_margin="1dip" />
 
             <Button
                 android:id="@+id/btnAmbu"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Ambulancia" />
+                android:text=""
+                android:background="@drawable/samu"
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:layout_margin="1dip" />
 
             <Button
                 android:id="@+id/btnBombe"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Bomberos" />
+                android:text=""
+                android:background="@drawable/bombe"
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:layout_margin="1dip" />
 
             <Button
                 android:id="@+id/btnPDI"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="PDI" />
+                android:text=""
+                android:background="@drawable/pdi"
+                android:layout_height="70dp"
+                android:layout_width="70dp"
+                android:layout_margin="1dip" />
 
         </TableRow>
     </TableLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/palcopiright"
+        android:textColor="#FFF"
+        android:textSize="10dp"
+        android:layout_marginBottom="100dip"
+        android:layout_marginLeft="15dip"
+        android:layout_marginRight="15dip" />
 
 </LinearLayout>
