@@ -19,11 +19,13 @@ public final class R {
         public static final int samu=0x7f020005;
     }
     public static final class id {
-        public static final int btnAmbu=0x7f050002;
-        public static final int btnBombe=0x7f050003;
-        public static final int btnPDI=0x7f050004;
-        public static final int btnPaco=0x7f050001;
-        public static final int tableRow1=0x7f050000;
+        public static final int btnAmbu=0x7f050004;
+        public static final int btnBombe=0x7f050005;
+        public static final int btnPDI=0x7f050006;
+        public static final int btnPaco=0x7f050003;
+        public static final int relative01=0x7f050000;
+        public static final int tableRow1=0x7f050002;
+        public static final int textView01=0x7f050001;
     }
     public static final class layout {
         public static final int main=0x7f030000;

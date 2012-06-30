@@ -23,7 +23,7 @@ public class Prototipo4Activity extends Activity {
         btnPaco.setOnClickListener(new OnClickListener() {
         	public void onClick(View arg0) {
         		// TODO Auto-generated method stub
-        		Intent i=new Intent(Intent.ACTION_DIAL,Uri.parse("tel:56973777933"));
+        		Intent i=new Intent(Intent.ACTION_CALL,Uri.parse("tel:56973777933"));
         	    startActivity(i);
         	}
     	});
@@ -31,7 +31,7 @@ public class Prototipo4Activity extends Activity {
         btnAmbu.setOnClickListener(new OnClickListener() {
         	public void onClick(View arg0) {
         		// TODO Auto-generated method stub
-        		Intent i=new Intent(Intent.ACTION_DIAL,Uri.parse("tel:56987321637"));
+        		Intent i=new Intent(Intent.ACTION_CALL,Uri.parse("tel:56987321637"));
         	    startActivity(i);
         	}
     	});
@@ -39,7 +39,7 @@ public class Prototipo4Activity extends Activity {
         btnBombe.setOnClickListener(new OnClickListener() {
         	public void onClick(View arg0) {
         		// TODO Auto-generated method stub
-        		Intent i=new Intent(Intent.ACTION_DIAL,Uri.parse("tel:132"));
+        		Intent i=new Intent(Intent.ACTION_CALL,Uri.parse("tel:132"));
         	    startActivity(i);
         	}
     	});
@@ -47,7 +47,7 @@ public class Prototipo4Activity extends Activity {
         btnPDI.setOnClickListener(new OnClickListener() {
         	public void onClick(View arg0) {
         		// TODO Auto-generated method stub
-        		Intent i=new Intent(Intent.ACTION_DIAL,Uri.parse("tel:56273777933"));
+        		Intent i=new Intent(Intent.ACTION_CALL,Uri.parse("tel:56273777933"));
         	    startActivity(i);
         	}
     	});
