@@ -26,6 +26,12 @@ public class Prototipo4Activity extends Activity {
         Button btnBombe = (Button) findViewById(R.id.btnBombe);
         Button btnPDI = (Button) findViewById(R.id.btnPDI);
         
+        LocationManager milocManager = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
+
+        LocationListener milocListener = new MiLocationListener();
+
+        milocManager.requestLocationUpdates( LocationManager.GPS_PROVIDER, 0, 0, milocListener);
+        
         btnPaco.setOnClickListener(new OnClickListener() {
         	public void onClick(View arg0) {
         		// TODO Auto-generated method stub
@@ -58,15 +64,10 @@ public class Prototipo4Activity extends Activity {
         	}
     	});
 
-        super.onCreate(savedInstanceState);
+        //super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.main);
+        //setContentView(R.layout.main);
 
-        LocationManager milocManager = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
-
-        LocationListener milocListener = new MiLocationListener();
-
-        milocManager.requestLocationUpdates( LocationManager.GPS_PROVIDER, 0, 0, milocListener);
     }
     
     public class MiLocationListener implements LocationListener{
